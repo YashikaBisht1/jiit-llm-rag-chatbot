@@ -3,7 +3,7 @@ Retrieval-Augmented Generation chatbot for JIIT using fine-tuned Mistral-7B (Uns
 
 # 🔍 Fine-Tuning LLMs with RAG for University Q\&A — Inspired by IEEE Research (2024)
 
-This project demonstrates how to **fine-tune a small language model (LLM)** on university admission FAQs and combine it with **RAG (Retrieval-Augmented Generation)** to build a smart, domain-aware assistant — all inspired by an IEEE research paper on answering student queries using LLMs.
+This project demonstrates how to fine-tune a lightweight language model (TinyLlama) on custom university FAQ data using Unsloth with LoRA/QLoRA, and enhance its retrieval capabilities using RAG (Retrieval-Augmented Generation). The PDF brochure of JIIT (jiit.ac.in) was parsed and embedded using FAISS and llama-index. The system is evaluated using ROUGE metrics for answer quality, and the fine-tuned model can be exported in GGUF format for CPU or Ollama use.
 
 > 🔬 Based on:
 > **"Fine-Tuning LLM to Answer Basic Questions for Prospective New Students at Syiah Kuala University Using the RAG Method"**
